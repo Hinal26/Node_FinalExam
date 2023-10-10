@@ -42,7 +42,7 @@ const getOrder = async (req, res) => {
 }
 
 /**delete order */
-const deleteUser = async (req, res) => {
+const deleteOrder = async (req, res) => {
     try {
         const id = req.params.Id;
         const orderEx = await orderService.getOrder();
